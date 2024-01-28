@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+     
+    </head>
+
+  <body>
+    <table>
+ <section>
+   <header>
+    <table>
+    <tr>
+    <nav>
+        <dl>
+          <td><dd><strong><u>
+            <a href "#">Home</a>
+          </dd></td>
+
+         <td> <dd><strong><u>
+            <a href "#">Projets et taches</a></u></strong>
+         </dd></td>
+         
+          <td><dd><strong><u>
+            <a href "#">Liste employés</a></u></strong>
+          </dd></td>
+
+         <td><dd><strong><u>
+            <a href "#">Inscription</a></u></strong>
+         </dd></td>
+
+        </dl>
+    </nav>
+    </tr> 
+    <table>
+   </header>
+ </section>
+
+<section>
+    <header> 
+        <img src ="C:\Users\HP\Desktop\atelierr1\img1.png" alt="logo" height="400" width="1300">
+    </header>
+</section>
+
+<form>
+   <h1>Inscription au Site </h1> 
+   <label for="name">Nom:</label>
+   <input type="text" id="nom" name="nom" pattern="^[A-Za-z\s]+$" required minlength="2">
+   <br>
+   
+   <label for="name">Prénom:</label>
+   <input type="text" id="nom" name="nom" pattern="^[A-Za-z\s]+$" required minlength="2">
+   <br>
+   <label for="email">Email</label>
+   <input type="email"  name="email"  required >
+   <br>
+   <label for="telephone">Téléphone :</label>
+    <input type="tel" id="telephone" name="telephone" pattern="\d{8}" required>
+    <br>
+
+   
+    <label for="dob">Date de naissance :</label>
+    <input type="date" id="dob" name="dob" required>
+    <br>
+
+   
+    <label for="password">Mot de passe :</label>
+    <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+   <br>
+    
+    <input type="submit" value="S'inscrire">
+
+
+</form>
+
+<footer>
+    <p>Vous pouvez nous contacter par email : <a href="mailto:contact@esprit.tn">contact@esprit.tn</a></p>
+    <p>Adresse: Ghazela,Tunis</p>
+</footer>
+  </body>
+</html>
